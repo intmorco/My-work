@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn_white, .btn_gray{
+    width: 155px;
+    height: 42px;
+    top: 653px;
+    left: 703px;
+    gap: 0px;
+    border-radius: 10px;
+    /* background-color: #0071E3; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    font-family: Gilroy;
+}
+
+.active{
+    background-color: #0071E3;
+}
+.passive{
+    background: #797979;
+}
+.img{
+    width: 312px;
+    height: 290px;
+    background: url(./img/white.png);
+}
+.img_white{
+    background-image: url(./img/white.png);
+}
+.img_gray{
+    background-image: url(./img/gray.png);
+}
