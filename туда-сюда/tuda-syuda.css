@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+	margin: 0px auto;
+}
+.bgs{
+    min-width: 1200px;
+    object-fit: cover;
+}
+
+.buttons{
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hide{
+    display: none;
+}
+.tabheader_items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tabheader_item{
+    width: 20px;
+    height: 20px;
+    background-color: gray;  
+    border-radius: 5px; 
+}
+.tabheader_item_active{
+    background-color: black;
+     
+}
