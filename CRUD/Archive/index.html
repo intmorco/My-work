@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ДОБАВЛЕНИЕ, ИЗМЕНЕНИЕ И УДАЛЕНИЕ ЭЛЕМЕНТА ИЗ ТАБЛИЦЫ</h1>
+        <form class="form">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" placeholder="Bruce Reyes" required>
+            <label for="age">Возраст</label>
+            <input type="number" name="age" id="age" placeholder="24" required>
+            <button>Показать</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Имя студента</th>
+                    <th>Год рождения</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Bruce Reyes</td>
+                    <td>1997</td>
+                    <td>
+                        <span class="edit"></span>
+                        <span class="delete"></span>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Изменение информации о пользователе</h2>
+            <form id="editForm">
+                <label for="editName">Имя</label>
+                <input type="text" id="editName" required>
+                <label for="editYear">Год рождения</label>
+                <input type="number" id="editYear" required>
+                <button type="button">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
